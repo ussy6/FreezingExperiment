@@ -8,9 +8,15 @@ A python script for analyzing experimental data. Temperature data in CSV format 
 
 ## Requirement
 - Python
-- 
+- numpy
+- pandas
+- matplotlib
+- datetime
 
 pipenvが使える環境であれば下記のコマンドでPipfileから仮想環境が構築されます．
+```
+pipenv install
+```
 
 If you can use pipenv, the virtual environment will be built from the Pipfile with the following command.
 
